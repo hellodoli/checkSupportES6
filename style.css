@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box .left {
+    flex: none;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box .right {
+    flex: none;
+    width: 60%;
+}
